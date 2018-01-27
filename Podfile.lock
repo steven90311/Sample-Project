@@ -1,0 +1,12 @@
+PODS:
+  - SquareMosaicLayout (4.1.0)
+
+DEPENDENCIES:
+  - SquareMosaicLayout (= 4.1.0)
+
+SPEC CHECKSUMS:
+  SquareMosaicLayout: e1b98323f3eee31edff63bc16a46cabb53153a88
+
+PODFILE CHECKSUM: f89b1e59b04020a4849c1f0150f5efd6d329a45e
+
+COCOAPODS: 1.3.1

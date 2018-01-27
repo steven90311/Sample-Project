@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C4B220FBC0D5CBB8A9941F04EB17FD0 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31BFBC0D028BE5A1E6765EFE4A72E6B /* Layout.swift */; };
+		0E7B4B4E9E7A7B883C9F61A4709DE44F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5BF84EA8E89427EE7DF5CFA8A0658CD5 /* Pods-PhotoEditorSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EC3B0551C60364378EA45FE3366F27 /* Pods-PhotoEditorSample-dummy.m */; };
+		7F1B56C7FB1FCF73F71E3D3CAAC3EE11 /* SquareMosaicLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 930B2CDD3200B8C634466126B6BEFF23 /* SquareMosaicLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9180047D213A55641296AD77D0380922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		99A213E5C3E5BF56ED5572180742CFE8 /* Pods-PhotoEditorSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F92A261D9261102DD8971A782BBFB86 /* Pods-PhotoEditorSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D43B77130A17A31289FAD4A3C0A514C /* SquareMosaicLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B05D56147CC55FAA14FE6FD00CC15D /* SquareMosaicLayout-dummy.m */; };
+		A469A93424D02B11D1F43E09E29EB7F0 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B5C4602F39A53EDC94F2658AEDE9E /* Object.swift */; };
+		E26C6B46D6FF347CF8C46C6C9EB9FD2C /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D234446059171C113FAF6EE2570CF9C5 /* Protocols.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9287DA6A81B9E0425EE913AF089278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241D3B510036EE5ED8E3101CF5D77D57;
+			remoteInfo = SquareMosaicLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AADC9E88CFD2FCB626CD06CA420696E /* Pods-PhotoEditorSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoEditorSample-frameworks.sh"; sourceTree = "<group>"; };
+		12654BA66FDA739553E4EE088DAC05E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B235698590DF95C11FE085ECA7CE49 /* Pods-PhotoEditorSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhotoEditorSample.modulemap"; sourceTree = "<group>"; };
+		28B05D56147CC55FAA14FE6FD00CC15D /* SquareMosaicLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SquareMosaicLayout-dummy.m"; sourceTree = "<group>"; };
+		32EC3B0551C60364378EA45FE3366F27 /* Pods-PhotoEditorSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoEditorSample-dummy.m"; sourceTree = "<group>"; };
+		4CD46B14E78C1939172CDED45ED212EF /* SquareMosaicLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SquareMosaicLayout.framework; path = SquareMosaicLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		606681CC8413B11FE6191EB548FBF486 /* SquareMosaicLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SquareMosaicLayout-prefix.pch"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		702DDD55428814F024903D5561425510 /* Pods_PhotoEditorSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhotoEditorSample.framework; path = "Pods-PhotoEditorSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE8907A60251578BF44B1CB850E19DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF274F86E87AFDE8FE0F1DE11B5C6EB /* Pods-PhotoEditorSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoEditorSample.release.xcconfig"; sourceTree = "<group>"; };
+		85CA39265A8A09C53181D85174676CCA /* Pods-PhotoEditorSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoEditorSample-resources.sh"; sourceTree = "<group>"; };
+		87532DF952D1EB683810E7F90B9BC6BF /* Pods-PhotoEditorSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoEditorSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F92A261D9261102DD8971A782BBFB86 /* Pods-PhotoEditorSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoEditorSample-umbrella.h"; sourceTree = "<group>"; };
+		930B2CDD3200B8C634466126B6BEFF23 /* SquareMosaicLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SquareMosaicLayout-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B992B1A747C0ABA86FCF69A8C3393CEE /* Pods-PhotoEditorSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoEditorSample.debug.xcconfig"; sourceTree = "<group>"; };
+		CD5D1B0949FF95990E340E33B048D5A0 /* SquareMosaicLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SquareMosaicLayout.modulemap; sourceTree = "<group>"; };
+		D234446059171C113FAF6EE2570CF9C5 /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = SquareMosaicLayout/Protocols.swift; sourceTree = "<group>"; };
+		E31BFBC0D028BE5A1E6765EFE4A72E6B /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = SquareMosaicLayout/Layout.swift; sourceTree = "<group>"; };
+		E74B5C4602F39A53EDC94F2658AEDE9E /* Object.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Object.swift; path = SquareMosaicLayout/Object.swift; sourceTree = "<group>"; };
+		F8263F5879EF557D84A66DD7DD2381C5 /* SquareMosaicLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SquareMosaicLayout.xcconfig; sourceTree = "<group>"; };
+		F836BF9E8A6990BC4EEB060F5BA19B4A /* Pods-PhotoEditorSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoEditorSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EFC0DACC83F0EEEF3C69AC5F3518561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9180047D213A55641296AD77D0380922 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553CD6BDD1CDBF8E2FC3742AD41FEDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7B4B4E9E7A7B883C9F61A4709DE44F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6D2934761EB23CA31A672E2C697383 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A164F47C42E201D83D55FEB634405A67 /* SquareMosaicLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1A6D2934761EB23CA31A672E2C697383 /* Pods */,
+				86A34AC93504A477F4C3E12A16E39CC6 /* Products */,
+				A3C4C56713BF4D8598D0FB24EA65D100 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86A34AC93504A477F4C3E12A16E39CC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				702DDD55428814F024903D5561425510 /* Pods_PhotoEditorSample.framework */,
+				4CD46B14E78C1939172CDED45ED212EF /* SquareMosaicLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98A4D7CC27691EEB86EFF205F841B9BB /* Pods-PhotoEditorSample */ = {
+			isa = PBXGroup;
+			children = (
+				7AE8907A60251578BF44B1CB850E19DD /* Info.plist */,
+				17B235698590DF95C11FE085ECA7CE49 /* Pods-PhotoEditorSample.modulemap */,
+				F836BF9E8A6990BC4EEB060F5BA19B4A /* Pods-PhotoEditorSample-acknowledgements.markdown */,
+				87532DF952D1EB683810E7F90B9BC6BF /* Pods-PhotoEditorSample-acknowledgements.plist */,
+				32EC3B0551C60364378EA45FE3366F27 /* Pods-PhotoEditorSample-dummy.m */,
+				0AADC9E88CFD2FCB626CD06CA420696E /* Pods-PhotoEditorSample-frameworks.sh */,
+				85CA39265A8A09C53181D85174676CCA /* Pods-PhotoEditorSample-resources.sh */,
+				8F92A261D9261102DD8971A782BBFB86 /* Pods-PhotoEditorSample-umbrella.h */,
+				B992B1A747C0ABA86FCF69A8C3393CEE /* Pods-PhotoEditorSample.debug.xcconfig */,
+				7AF274F86E87AFDE8FE0F1DE11B5C6EB /* Pods-PhotoEditorSample.release.xcconfig */,
+			);
+			name = "Pods-PhotoEditorSample";
+			path = "Target Support Files/Pods-PhotoEditorSample";
+			sourceTree = "<group>";
+		};
+		A164F47C42E201D83D55FEB634405A67 /* SquareMosaicLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E31BFBC0D028BE5A1E6765EFE4A72E6B /* Layout.swift */,
+				E74B5C4602F39A53EDC94F2658AEDE9E /* Object.swift */,
+				D234446059171C113FAF6EE2570CF9C5 /* Protocols.swift */,
+				A591D714389045C58D18796A7C5BD7D2 /* Support Files */,
+			);
+			name = SquareMosaicLayout;
+			path = SquareMosaicLayout;
+			sourceTree = "<group>";
+		};
+		A3C4C56713BF4D8598D0FB24EA65D100 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98A4D7CC27691EEB86EFF205F841B9BB /* Pods-PhotoEditorSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A591D714389045C58D18796A7C5BD7D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12654BA66FDA739553E4EE088DAC05E9 /* Info.plist */,
+				CD5D1B0949FF95990E340E33B048D5A0 /* SquareMosaicLayout.modulemap */,
+				F8263F5879EF557D84A66DD7DD2381C5 /* SquareMosaicLayout.xcconfig */,
+				28B05D56147CC55FAA14FE6FD00CC15D /* SquareMosaicLayout-dummy.m */,
+				606681CC8413B11FE6191EB548FBF486 /* SquareMosaicLayout-prefix.pch */,
+				930B2CDD3200B8C634466126B6BEFF23 /* SquareMosaicLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SquareMosaicLayout";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1086AF54F7709722C75A99690C6F364B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A213E5C3E5BF56ED5572180742CFE8 /* Pods-PhotoEditorSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CDC2A8F2640B0332E9F37D5B291FEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1B56C7FB1FCF73F71E3D3CAAC3EE11 /* SquareMosaicLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		241D3B510036EE5ED8E3101CF5D77D57 /* SquareMosaicLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9000EDA6F98E9B1E2F0F2094869F5C27 /* Build configuration list for PBXNativeTarget "SquareMosaicLayout" */;
+			buildPhases = (
+				51883E1E291C04014C51E1319E19B49D /* Sources */,
+				0EFC0DACC83F0EEEF3C69AC5F3518561 /* Frameworks */,
+				80CDC2A8F2640B0332E9F37D5B291FEB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquareMosaicLayout;
+			productName = SquareMosaicLayout;
+			productReference = 4CD46B14E78C1939172CDED45ED212EF /* SquareMosaicLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF40EE5C05315934AA72490E7F46AFA9 /* Pods-PhotoEditorSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FEC5682F2215CD3D764F364578B15A8 /* Build configuration list for PBXNativeTarget "Pods-PhotoEditorSample" */;
+			buildPhases = (
+				01DE220BF4EFF81FE2F1F5C684DF7A77 /* Sources */,
+				553CD6BDD1CDBF8E2FC3742AD41FEDC3 /* Frameworks */,
+				1086AF54F7709722C75A99690C6F364B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76936D9AF23175590496C9016431421E /* PBXTargetDependency */,
+			);
+			name = "Pods-PhotoEditorSample";
+			productName = "Pods-PhotoEditorSample";
+			productReference = 702DDD55428814F024903D5561425510 /* Pods_PhotoEditorSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 86A34AC93504A477F4C3E12A16E39CC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF40EE5C05315934AA72490E7F46AFA9 /* Pods-PhotoEditorSample */,
+				241D3B510036EE5ED8E3101CF5D77D57 /* SquareMosaicLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01DE220BF4EFF81FE2F1F5C684DF7A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF84EA8E89427EE7DF5CFA8A0658CD5 /* Pods-PhotoEditorSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51883E1E291C04014C51E1319E19B49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4B220FBC0D5CBB8A9941F04EB17FD0 /* Layout.swift in Sources */,
+				A469A93424D02B11D1F43E09E29EB7F0 /* Object.swift in Sources */,
+				E26C6B46D6FF347CF8C46C6C9EB9FD2C /* Protocols.swift in Sources */,
+				9D43B77130A17A31289FAD4A3C0A514C /* SquareMosaicLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76936D9AF23175590496C9016431421E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SquareMosaicLayout;
+			target = 241D3B510036EE5ED8E3101CF5D77D57 /* SquareMosaicLayout */;
+			targetProxy = 0A9287DA6A81B9E0425EE913AF089278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A49206219CE37A6FFEF8ADBE980C4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF274F86E87AFDE8FE0F1DE11B5C6EB /* Pods-PhotoEditorSample.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoEditorSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoEditorSample/Pods-PhotoEditorSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhotoEditorSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		90C4DEF01805FFC7447DEE3C13165803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8263F5879EF557D84A66DD7DD2381C5 /* SquareMosaicLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SquareMosaicLayout/SquareMosaicLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SquareMosaicLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SquareMosaicLayout/SquareMosaicLayout.modulemap";
+				PRODUCT_NAME = SquareMosaicLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ACC788233CCF46C97DB4119E99C1EF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B992B1A747C0ABA86FCF69A8C3393CEE /* Pods-PhotoEditorSample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoEditorSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoEditorSample/Pods-PhotoEditorSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhotoEditorSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4B80B40F175D572B2089481FCA2A164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8263F5879EF557D84A66DD7DD2381C5 /* SquareMosaicLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SquareMosaicLayout/SquareMosaicLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SquareMosaicLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SquareMosaicLayout/SquareMosaicLayout.modulemap";
+				PRODUCT_NAME = SquareMosaicLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FEC5682F2215CD3D764F364578B15A8 /* Build configuration list for PBXNativeTarget "Pods-PhotoEditorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC788233CCF46C97DB4119E99C1EF90 /* Debug */,
+				6A49206219CE37A6FFEF8ADBE980C4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9000EDA6F98E9B1E2F0F2094869F5C27 /* Build configuration list for PBXNativeTarget "SquareMosaicLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B80B40F175D572B2089481FCA2A164 /* Debug */,
+				90C4DEF01805FFC7447DEE3C13165803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
